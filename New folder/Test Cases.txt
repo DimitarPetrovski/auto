@@ -1,0 +1,444 @@
+Some of the steps will be different on mobile and we can specify on the 1st step on what device the test is being done
+Ex.
+1.Open https://casinodays.com/en on Iphone 12 or Laptop, pc
+
+
+TEST 1
+Register Button Functionality
+
+Description:
+Verify the functionality of the "Register Button"
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+
+Expected:
+The registration popup should be displayed after clicking the button.
+
+
+
+TEST 2
+First name field valid
+
+Description:
+Verify that the First name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a first name that contains only letters 
+
+Expected:
+The first name should be accepted
+
+
+
+TEST 3
+First name field invalid(numbers)
+
+Description:
+Verify that the First name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a first name that contains only numbers 
+
+Expected:
+Error  message should appear bellow the field "Invalid First name"
+
+
+
+TEST 4
+First name field invalid(symbols)
+
+Description:
+Verify that the First name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a first name that contains only symbols
+
+Expected:
+Error  message should appear bellow the field "Invalid First name"
+
+
+TEST 5
+First name field empty
+
+Description:
+Verify that the First name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Leave the first name field empty
+
+Expected:
+Error  message should appear bellow the field "Firstname is required"
+
+
+
+TEST 6
+Last name field valid
+
+Description:
+Verify that the Last name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a last name that contains only letters 
+
+Expected:
+The last name should be accepted
+
+
+TEST 7
+Last name field invalid(numbers)
+
+Description:
+Verify that the Last name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a Last name that contains only numbers 
+
+Expected:
+Error  message should appear bellow the field "Invalid Last name"
+
+TEST 8
+Last name field invalid(symbols)
+
+Description:
+Verify that the Last name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a Last name that contains only symbols
+
+Expected:
+Error  message should appear bellow the field "Invalid Last name"
+
+
+TEST 9
+Last name field empty
+
+Description:
+Verify that the Last name field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Leave the Last name field empty
+
+Expected:
+Error  message should appear bellow the field "Last name is required"
+
+
+*TEST CASE COMBINATIONS OF LETTERS/NUMBERS LETTERS/SYMBOLS AND NUMBERS/SYMBOLS ALL SHOULD BE DENIED*
+
+
+TEST 10
+Email valid
+
+Description:
+Verify that the email field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter an email in the email filed in this structure XXX@XXX.XX
+
+Expected:
+The email should be accepted
+
+
+TEST 11
+Email validation(taken email)
+
+Description:
+Verify that the email field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter an email in the email filed that has already been used
+
+Expected:
+Error message "email already taken" should appear when we click agree and continue
+
+
+TEST 12
+Email invalid(random letters numbers symbols)
+
+Description:
+Verify that the email field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter an email in the email filed that does not match the structure XXX@XXX.XX
+Expected:
+Error saying "Email is invalid should appear"
+
+
+TEST 13
+Email empty
+
+Description:
+Verify that the email field is working properly and meets the requirements
+
+Steps to reproduce:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Leave the email field empty
+Expected:
+Error saying "Email is required"
+
+
+
+
+TEST 14
+Password Valid
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password in the password field that contains Upper  letter more than 8 chars and a special symbol
+
+Expected:
+The password should be accepted
+
+
+
+TEST 14
+Password Invalid(Only letters)
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password in the password field that contains only letters
+
+Expected:
+The password should be denied(Error message)
+
+
+TEST 15
+Password Invalid(No upper letter)
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password in the password field that doesn't contain upper letter
+
+Expected:
+The password should be denied(Error message)
+
+
+
+TEST 16
+Password Invalid(No number)
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password in the password field that doesn't contain a number
+
+Expected:
+The password should be denied(Error message)
+
+
+TEST 17
+Password Invalid(Less than 8 chars)
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password in the password field that contains less than 8 chars
+
+Expected:
+The password should be denied(Error message)
+
+
+
+TEST 18
+Password Invalid(No upper letter)
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password in the password field that doesn't contain upper letter
+
+Expected:
+The password should be denied(Error message)
+
+
+TEST 19
+Password Invalid(Empty field)
+
+Description:
+Verify that the password field is working properly and meets the requirements
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Leave the password field empty
+
+Expected:
+The password should be denied(Error message)
+
+
+TEST 20
+Password show/hide button
+
+Description:
+Verify that the password field "show/hide button is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password 
+4.Click on the show button
+
+Expected:
+The password should be visable
+
+
+TEST 21
+Password show/hide button
+
+Description:
+Verify that the password field "show/hide button is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Enter a password 
+4.Click on the show button
+5.Click on the Hide button
+
+Expected:
+The password should be invisable(***)
+
+
+TEST 22
+Country/Region dropdown functionality
+
+Description:
+Verify that the Country/Region dropdown button is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Click on the Country/Region button
+
+Expected:
+A dropdown should appear when we click on the Country/Region button
+
+
+TEST 23
+Country/Region dropdown functionality(change country)
+
+Description:
+Verify that the Country/Region dropdown button is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Click on the Country/Region button
+4.Select every country in the dropdown and verify that they are displayed once selected.
+
+Expected:
+The Country/Region field should update once we select a country.
+
+
+TEST 24
+Download Terms and Conditions link
+
+Description:
+Verify that the Download Terms and Conditions link is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Click on the Download Terms and Conditions link
+
+Expected:
+The Terms and Conditions should start downloading once we click on the link
+
+
+TEST 25
+*Agree and continue button* 
+
+-This functionality can be tested with multiple combinations of the previous test cases such as leaving empty fields and not meeting the field requirements which will resolve in not being able to create a account
+-If all the requirements are met the account should be created once we fill the fields and click the button
+
+
+TEST 26
+Marketing checkbox functionality(valid)
+
+Description:
+Verify that the Marketing checkbox is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Fill in all the required fields
+4.Click on the Marketing checkbox
+5.Click Agree and continue
+
+Expected:
+The user should be receiving special offers via email and SMS
+
+
+TEST 27
+Marketing checkbox functionality(invalid)
+
+Description:
+Verify that the Marketing checkbox is working properly 
+
+Steps:
+1.Open https://casinodays.com/en
+2.Click on the Sign up button(top right corner)
+3.Fill in all the required fields
+4.Don't click on the Marketing checkbox
+5.Click Agree and continue
+
+Expected:
+The user shouldn't receive special offers via email and SMS
+
+
+4.
+-SMOKE TESTING SHOULD BE DONE AFTER EVERY NEW VERSION TO VERIFY THAT THE MAIN FUNCTIONALITIES ARE WORKING PROPERLY
+
+
+
+
+
+
+
+
+
